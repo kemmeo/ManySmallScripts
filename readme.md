@@ -2,10 +2,9 @@
 
 #### A collection of small Javascript snippets that I use for Canvas & Math.
 
-![MMS LOGO](https://i.imgur.com/OXoWcya.png?style=centerme)
-img[src$="centerme"] {
+![MMS LOGO](https://i.imgur.com/OXoWcya.png){
   display:block;
-  margin: 0 auto;
+  margin:0 auto;
 }
 
 ### Clamp()
