@@ -10,25 +10,6 @@
 
 #
 
-### Importing Scripts
-
-Add the following to your JS file, to import all MSS functions:
-```js
-import {*} from "https://raw.githubusercontent.com/kemmeo/ManySmallScripts/master/mss.js"
-```
-
-You can also import specific functions like this:
-```js
-import {lerp,clamp}; from "https://raw.githubusercontent.com/kemmeo/ManySmallScripts/master/mss.js";
-```
-*This will import the lerp and clamp functions.*
-
->NOTE
-- To import MSS Scripts you must add `type="module"` to your html script tag.
-- Chrome won't let you import from local files, so test local modules with firefox.
-
-#
-
 ### Clamp()
 
 Prevent a variable from going beyond a min and max value.
