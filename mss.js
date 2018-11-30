@@ -28,3 +28,5 @@ function smoothing(){
   c.translate(.5,.5);
   c.lineWidth=.5;
 }
+
+export {clamp,iRandom,lerp,gap,within,smoothing};
